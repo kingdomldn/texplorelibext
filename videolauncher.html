@@ -38,8 +38,8 @@
 					<li><a href="spinners.html">Spinners</a></li>
 					<li><a href="textimage.html">Text &amp; Image</a></li>
 					<li><a href="videos.html"><span class="currentpage">Video</span></a></li>
-					<li><a href="videoplayer.html"><span class="inset"><div class="dot"></div><span class="currentpage">Video Player</span></span></a></li>
-					<li><a href="videolauncher.html"><span class="inset"><div class="dot"></div>Video Launcher</span></a></li>
+					<li><a href="videoplayer.html"><span class="inset"><div class="dot"></div>Video Player</span></a></li>
+					<li><a href="videolauncher.html"><span class="inset"><div class="dot"></div><span class="currentpage">Video Launcher</span></span></a></li>
 					<li><a href="images.html">Image</a></li>
                     <li><a href="appdownload.html">App Download</a></li>
                 </ul>
@@ -61,11 +61,11 @@
 -->
 	<div class="header-spacer"></div>
     <div class="container">
-        <p class="page-title">Video Player</p>
+        <p class="page-title">Video Launcher</p>
         <div class="videowrapper">
             <video id="my-video" class="vjs-16-9 video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" width="auto" height="auto"
-  poster="videos/video-modules/full-screen-video.jpg" data-setup="{}">
-    <source src="videos/video-modules/full-screen-video.mp4" type='video/mp4'>
+  poster="videos/video-modules/video-launcher.jpg" data-setup="{}">
+    <source src="videos/video-modules/video-launcher.mp4" type='video/mp4'>
 <!--    <source src="MY_VIDEO.webm" type='video/webm'>-->
     <p class="vjs-no-js">
       To view this video please enable JavaScript, and consider upgrading to a web browser that
@@ -74,22 +74,14 @@
             </video>
         </div>
         <p class="category-title">Functionality overview</p>
-        <p class="body">The video player in Toyota explore launches straight into the video when a page is detected. Playing the video full screen with audio (if the device isn't muted). When the video has ended the user is given the option to replay the video or return  to their previous location in the app.</p>
+        <p class="body">The video launcher in Toyota explore launches straight into the video when a page is detected. Playing the video full screen with audio (if the device isn't muted). When the video has reached the end the user is automatically transitioned into the defined next module by the device. When using this video launcher module the next module will feature an additional replay button in the navbar of the app this will replay the video again before taking the user back to the module.</p>
         <p class="category-title">Options when using this module</p>
-        <p class="body">Since the video player module is a self contained experience it can be used anywhere in the app that it can be launched from. The most basic use is by scanning a page to launch the video. Alternative options are whenever a standard hotspot is used in an experience. An example of this could be the user tapping on a hotspot in a config module to load a video then return to the config unit.</p>
+        <p class="body">Since the video launcher module is an introducing experience it should only be used on content that requires introduction or setup. Current usage examples include using the video launcher module to play a short animatic of the interior of the car before launching into a configurator module.
         <p class="category-title">Cars using this module</p>
         <div class="car-container">
             <div class="car">
                 <img src="img/cars/aygo.png">
                 <p class="car-title">Aygo</p>
-            </div>
-            <div class="car">
-                <img src="img/cars/auris.png">
-                <p class="car-title">Auris</p>
-            </div>
-            <div class="car">
-                <img src="img/cars/avensis.png">
-                <p class="car-title">Avensis</p>
             </div>
         </div>
         <div class="btn-body"><a href="videos.html" class="red-btn"><span>Back to video modules</span></a></div>
